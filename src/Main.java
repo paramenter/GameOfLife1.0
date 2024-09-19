@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Map map = new Map(100, 100);
+        Fen fen = new Fen(map);
     }
 }
